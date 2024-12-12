@@ -14,7 +14,7 @@ import androidx.fragment.app.viewModels
 import com.example.shara.data.Result
 import com.example.shara.data.ViewModelFactory
 import com.example.shara.ui.result.ResultActivity
-import com.example.shara.databinding.FragmentDashboardBinding
+import com.example.shara.databinding.FragmentCameraBinding
 import com.example.shara.util.CameraUtil
 import com.example.shara.util.CameraUtil.reduceFileImage
 import okhttp3.MediaType.Companion.toMediaType
@@ -23,7 +23,7 @@ import okhttp3.RequestBody.Companion.asRequestBody
 
 class CameraFragment : Fragment() {
 
-    private lateinit var binding: FragmentDashboardBinding
+    private lateinit var binding: FragmentCameraBinding
     private var currentImage: Uri? = null
     private val cameraViewModel: CameraViewModel by viewModels {
         ViewModelFactory.getInstance(requireContext())
@@ -46,7 +46,7 @@ class CameraFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        binding = FragmentDashboardBinding.inflate(inflater, container, false)
+        binding = FragmentCameraBinding.inflate(inflater, container, false)
         return binding.root
     }
 

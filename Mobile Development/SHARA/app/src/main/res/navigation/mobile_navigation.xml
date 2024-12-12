@@ -15,11 +15,11 @@
         android:id="@+id/navigation_camera"
         android:name="com.example.shara.ui.camera.CameraFragment"
         android:label="@string/title_camera"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_camera" />
 
     <fragment
         android:id="@+id/navigation_history"
         android:name="com.example.shara.ui.history.HistoryFragment"
         android:label="@string/title_history"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_history" />
 </navigation>
