@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SHARA" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/heather</item>
+        <item name="colorPrimaryVariant">@color/regent_gray</item>
+        <item name="colorOnPrimary">@color/big_stone</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ghost</item>
+        <item name="colorSecondaryVariant">@color/juniper</item>
+        <item name="colorOnSecondary">@color/big_stone</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

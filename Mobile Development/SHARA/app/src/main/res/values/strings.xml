@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SHARA</string>
+    <string name="title_home">Home</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_history">History</string>
+    <string name="email_invalid">Email tidak valid</string>
+    <string name="logout">Logout</string>
+    <string name="camera">Camera</string>
+    <string name="history">History</string>
+    <string name="shara">SHARA</string>
+    <string name="deskripsi">SHARA, is here to help! With advanced skin scanning technology, SHARA identifies your skin type whether it\'s oily, dry, or normal and provides tailored skincare recommendations. Leave the guesswork behind and give your skin the best care with SHARA, the practical and personalized solution for healthier skin</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome">welcome</string>
+    <string name="gambar">Gambar</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="ed_username">Masukan username</string>
+    <string name="ed_email">Masukan Email</string>
+    <string name="ed_password">Masukan Password</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="harga_produk">Harga Produk</string>
+    <string name="rekomendasi_skincare">Rekomendasi Skincare :</string>
+    <string name="hasil_deteksi_kulit_anda">Hasil Deteksi Kulit Anda :</string>
+    <string name="hasil">Hasil</string>
+    <string name="deskripsi_produk">Deskripsi Produk</string>
+    <string name="skin_type">Skin Type</string>
+    <string name="insert_skin_type">Result Skin Type</string>
+    <string name="riwayat_upload">Riwayat Upload</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+
+</resources>
