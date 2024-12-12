@@ -7,12 +7,12 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.shara.data.response.RecommendationsItem
-import com.example.shara.databinding.ItemRowBinding
+import com.example.shara.databinding.ItemHistoryBinding
 
 class RecommendationAdapter :
     ListAdapter<RecommendationsItem, RecommendationAdapter.ViewHolder>(DIFF_CALLBACK) {
 
-    class ViewHolder(private val binding: ItemRowBinding) :
+    class ViewHolder(private val binding: ItemHistoryBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(recommendation: RecommendationsItem) {
             binding.apply {
@@ -27,7 +27,7 @@ class RecommendationAdapter :
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val binding = ItemRowBinding.inflate(
+        val binding = ItemHistoryBinding.inflate(
             LayoutInflater.from(parent.context),
             parent,
             false

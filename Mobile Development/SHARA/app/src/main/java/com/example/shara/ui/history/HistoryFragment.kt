@@ -11,11 +11,11 @@ import com.example.shara.data.Result
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.shara.adapter.HistoryAdapter
 import com.example.shara.data.ViewModelFactory
-import com.example.shara.databinding.FragmentNotificationsBinding
+import com.example.shara.databinding.FragmentHistoryBinding
 
 class HistoryFragment : Fragment() {
 
-    private lateinit var binding: FragmentNotificationsBinding
+    private lateinit var binding: FragmentHistoryBinding
     private lateinit var historyAdapter: HistoryAdapter
     private val historyViewModel: HistoryViewModel by viewModels {
         ViewModelFactory.getInstance(requireContext())
@@ -36,7 +36,7 @@ class HistoryFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        binding = FragmentHistoryBinding.inflate(inflater, container, false)
         return binding.root
 
     }
