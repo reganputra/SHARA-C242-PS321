@@ -24,3 +24,21 @@ Struggling to find the right skincare products for your unique skin type? SHARA,
 -
 -
 -
+
+### Cloud Computing
+- Javascript
+- Python
+- Node.JS
+- Express.JS
+- FastAPI
+- Google Cloud
+- Firebase
+- Postman
+
+### Mobile Development
+-
+-
+-
+-
+-
+-
