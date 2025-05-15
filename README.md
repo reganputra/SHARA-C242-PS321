@@ -18,6 +18,9 @@ Struggling to find the right skincare products for your unique skin type? SHARA,
 ## Documentation API
 [Destinations API](https://documenter.getpostman.com/view/39648974/2sAYBYeUvp#f9d45993-3186-4df4-a971-51d4ab5871c3)
 
+## Demo App
+[🎬 Tonton Demo di Google Drive](https://drive.google.com/file/d/1k0u20EHXZM66VkCKPrn9HKJQsxHwWo5R/view?usp=drive_link)
+
 ## Tech & Tools
 ### Machine Learning
 - Keras
